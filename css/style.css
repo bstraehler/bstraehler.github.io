@@ -1,0 +1,68 @@
+
+/* Reset CSS */
+html, body {
+  z-index: 1;
+  font-family: 'Inter';
+  font-size: 16px;
+  color:#e6e6e6;
+  background-color: #262626;
+  padding: 0;
+  margin: 0;
+  transition: color 1.5s ease;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-moz-selection {
+    color:#000;
+    background:rgba(255, 255, 255, 0.99)}
+
+::selection {
+    color:#000;
+    background:rgba(255, 255, 255, 0.99)}
+
+a:link {font-family: 'Space Mono'; color:#ffb380; word-spacing: -0.25em; text-decoration:none;}
+a:visited {color:#ff8080; text-decoration:none;}
+a:hover{color:white; text-decoration:underline;}
+a:active {color:#000000; text-decoration:none;}
+
+a, button, input, label {
+  cursor: pointer
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+span.space {
+  font-family: 'Space Mono';
+  word-spacing: -0.25em;
+}
+
+.Main {
+    position: absolute;
+    top: 2em;
+    padding: 1em;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    letter-spacing: -0.015em;
+}
+
+.Bottom {
+    margin-top: 12em;
+    justify-content: left;
+    font-size: 0.5em;
+    line-height: 1.25em;
+    letter-spacing: 0.03em;
+    z-index: 1;
+}
+
+.changeColor {
+   /* Scroll-Farbwechsel */
+   color: #666666;
+}
+
+/* Media Queries */
